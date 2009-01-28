@@ -1,8 +1,9 @@
 //==============================================================================
 
-#include <hge.h>
 #include <viewport.hpp>
 #include <debug.hpp>
+
+#include <hge.h>
 
 //------------------------------------------------------------------------------
 DebugDraw::DebugDraw( HGE * hge, ViewPort * viewport )

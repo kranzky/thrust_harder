@@ -3,11 +3,10 @@
 #ifndef ArseDebug
 #define ArseDebug
 
+#include <hge.h>
 #include <Box2D.h>
 
-class HGE;
 class ViewPort;
-struct hgeVertex;
 
 //------------------------------------------------------------------------------
 class DebugDraw: public b2DebugDraw
