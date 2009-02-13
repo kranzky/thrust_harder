@@ -459,9 +459,9 @@ Engine::_initGraphics()
     m_hge->System_SetState( HGE_FRAMEFUNC, s_update );
     m_hge->System_SetState( HGE_RENDERFUNC, s_render );
     m_hge->System_SetState( HGE_TITLE, "+++ T H R U S T | H A R D E R +++" );
-    m_hge->System_SetState( HGE_WINDOWED, true );
-    m_hge->System_SetState( HGE_SCREENWIDTH, 800 );
-    m_hge->System_SetState( HGE_SCREENHEIGHT, 600 );
+    m_hge->System_SetState( HGE_WINDOWED, false );
+    m_hge->System_SetState( HGE_SCREENWIDTH, 1280 );
+    m_hge->System_SetState( HGE_SCREENHEIGHT, 800 );
     m_hge->System_SetState( HGE_SCREENBPP, 32 );
     m_hge->System_SetState( HGE_USESOUND, true );
     m_hge->System_SetState( HGE_SHOWSPLASH, false );
